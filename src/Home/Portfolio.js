@@ -28,7 +28,7 @@ const Portfolio = () => {
                 <Container>
                     <Row>
                         <Col lg="6" md="6" className="my-5 py-5" >
-                            <div data-aos="fade-right">
+                            <div data-aos="zoom-in">
                                 <p className="nor-text ">Hi, I am</p>
                                 <h1 className="int-name ">
                                     <strong>Rajkumar</strong>
@@ -55,14 +55,14 @@ const Portfolio = () => {
                                 </span></p>
                                 <p className="text-white reg-text">I like to code things from scratch, and enjoy bringing ideas to life in the browser and I love what I do.</p>
                             </div>
-                            <div className="d-flex justify-content-around mt-5" data-aos="fade-right">
+                            <div className="d-flex justify-content-around mt-5" data-aos="zoom-in">
                                 <div className="download-cv text-white" onClick={() => saveAs(resume)}>Download CV</div>
                                 <a href="#contact"><div className="yellow contact" >Contact Me</div></a>
                             </div>
                         </Col>
                         <Col lg="6" md="6" className="my-5 py-5">
-                            <div data-aos="fade-left">
-                                <img src={Computer} alt="Developer" />
+                            <div data-aos="zoom-in-up">
+                                <img src={Computer} alt="Developer" className="img-fluid" />
                             </div>
 
                         </Col>
@@ -74,7 +74,7 @@ const Portfolio = () => {
                                 <Col lg="4" className="d-flex justify-content-center ">
 
                                     <div>
-                                        <div className="icon-circle mx-2" data-aos="flip-left"><AiOutlineTrophy color="white" size={50} /></div>
+                                        <div className="icon-circle mx-2" data-aos="zoom-in"><AiOutlineTrophy color="white" size={50} /></div>
                                     </div>
                                     <div>
                                         <p className="text-white">Front-end</p>
@@ -84,7 +84,7 @@ const Portfolio = () => {
                                 <div className="line d-lg-none"></div>
                                 <Col lg="4" className="d-flex justify-content-center ">
                                     <div >
-                                        <div className="icon-circle mx-2 " data-aos="flip-left"><BsFileCodeFill color="white" size={50} /></div>
+                                        <div className="icon-circle mx-2 " data-aos="zoom-in"><BsFileCodeFill color="white" size={50} /></div>
                                     </div>
                                     <div>
                                         <p className="text-white">15+ Projects</p>
@@ -94,7 +94,7 @@ const Portfolio = () => {
                                 <div className="line d-lg-none"></div>
                                 <Col lg="4" className="d-flex justify-content-center  ">
                                     <div>
-                                        <div className="icon-circle mx-2" data-aos="flip-left"><GiSandsOfTime color="white" size={50} /></div>
+                                        <div className="icon-circle mx-2" data-aos="zoom-in"><GiSandsOfTime color="white" size={50} /></div>
                                     </div>
                                     <div>
                                         <p className="text-white">1 year</p>
@@ -109,19 +109,19 @@ const Portfolio = () => {
                     <div id="about">
                         <Row>
                             <Col md="4" className="d-flex justify-content-center my-5 py-5">
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <img src={Profile} alt="Profile" className="img-fluid profile" />
                                 </div>
                             </Col>
                             <Col md="8" className="my-5 py-5">
-                                <div data-aos="fade-left">
+                                <div data-aos="zoom-in">
                                     <p className="nor-text text-start">My Intro</p>
                                     <h1 className="int-name  text-start">
                                         <strong>About Me</strong>
                                     </h1>
                                     <p className="text-white text-start reg-text">Since beginning my journey as a Web Developer nearly 1 years ago, I've learnt many kind of technologies and did many collaborated projects with talented developers. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
                                 </div>
-                                <div className="mt-5" data-aos="fade-left">
+                                <div className="mt-5" data-aos="zoom-in">
                                     <div className="text-start mt-3"><CgProfile color="white" size={30} className="mx-2 profile-icon" /><pan className="text-white mx-2 reg-text">Name :</pan><span className="text-white mx-2 reg-text">Rajkumar Selvakumar</span></div>
                                     <div className="text-start mt-3"><AiFillPhone color="white" size={30} className="mx-2 profile-icon" /><pan className="text-white mx-2 reg-text">Phone :</pan><span className="text-white mx-2 reg-text">+917708461341</span></div>
                                     <div className="text-start mt-3"><AiOutlineMail size={30} color="white" className="mx-2 profile-icon" /><pan className="text-white mx-2 reg-text">Email :</pan><span className="text-white mx-2 reg-text">raj1711dell@gmail.com</span></div>
@@ -135,7 +135,7 @@ const Portfolio = () => {
                                 <h1 className="int-name ">
                                     <strong>Skills</strong>
                                 </h1>
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">HTML5</p>
                                         <p className="reg-text">85%</p>
@@ -145,7 +145,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text" >CSS3</p>
                                         <p className="reg-text">85%</p>
@@ -155,7 +155,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div >
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">BootStrap, ReactStrap</p>
                                         <p className="reg-text">90%</p>
@@ -165,7 +165,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">JavaScript</p>
                                         <p className="reg-text">85%</p>
@@ -175,7 +175,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">React JS, Redux</p>
                                         <p className="reg-text">90%</p>
@@ -185,7 +185,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">Typescript</p>
                                         <p className="reg-text">60%</p>
@@ -195,7 +195,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div data-aos="fade-right">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">Solidity</p>
                                         <p className="reg-text">50%</p>
@@ -211,7 +211,7 @@ const Portfolio = () => {
                                 <h1 className="int-name ">
                                     <strong>What I Do</strong>
                                 </h1>
-                                <div data-aos="fade-left">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">Front-end Developement</p>
                                         <p className="reg-text">90%</p>
@@ -222,7 +222,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div data-aos="fade-left">
+                                <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">Web Design</p>
                                         <p className="reg-text">90%</p>
@@ -233,7 +233,7 @@ const Portfolio = () => {
                                         color="warning"
                                     />
                                 </div>
-                                <div id="" data-aos="fade-left">
+                                <div id="" data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
                                         <p className="reg-text">Web3 Integration</p>
                                         <p className="reg-text">90%</p>
@@ -255,7 +255,7 @@ const Portfolio = () => {
                                 </h1>
                             </Col>
                             <Col md={{ size: 6, offset: 3 }} lg={{ size: 6, offset: 3 }} sm="12" xs="12" className="py-5">
-                                <div className="work-sec px-3 py-3" data-aos="flip-left">
+                                <div className="work-sec px-3 py-3" data-aos="zoom-in">
                                     <p className="text-white reg-text "><span className="px-3"><img src={Ecrubit} alt="Ecrubit" className="company-logo" width={40} /></span><h3><strong>Ecrubit Software Solution</strong></h3></p>
                                     <p className="text-white reg-text">I had the opportunity to work at Ecrubit Counsultancy Services Pvt Ltd, as a Front-End Developer for 1 years.</p>
                                     <p className="text-white reg-text"> I was responsible for creating responsive Landing Pages using HTML, CSS, JavaScript, React.js, Bootstrap and ReactStrap.</p>
@@ -281,7 +281,7 @@ const Portfolio = () => {
                                 {Projects && Projects.length > 0 && Projects.map((item) => (
 
                                     <Col lg='4' className="px-3 py-3">
-                                        <Card className="project-card" data-aos="flip-up">
+                                        <Card className="project-card" data-aos="zoom-in">
                                             <CardBody className="" >
                                                 <h4 className="yellow"><strong>{item.title}</strong></h4>
                                                 <div>
@@ -326,7 +326,7 @@ const Portfolio = () => {
                         <Row className="d-flex">
                             <Col md="4" className='d-flex justify-content-center py-5 my-5'>
                                 {/* <div className="d-flex"> */}
-                                <div className="icon-circle" data-aos="flip-left">
+                                <div className="icon-circle" data-aos="zoom-in-up">
                                     <AiFillPhone size={50} className="" color="white" />
                                 </div>
                                 <div className="px-2">
@@ -338,7 +338,7 @@ const Portfolio = () => {
                             </Col>
                             {/* <div className="d-flex"> */}
                             <Col lg="4" className='d-flex justify-content-center py-5 my-5'>
-                                <div className="icon-circle" data-aos="flip-left">
+                                <div className="icon-circle" data-aos="zoom-in-up">
                                     <AiOutlineMail size={50} className="" color="white" />
                                 </div>
                                 <div className="px-2">
@@ -349,7 +349,7 @@ const Portfolio = () => {
                             {/* </div> */}
                             {/* <div className="d-flex"> */}
                             <Col lg="4" className='d-flex justify-content-center py-5 my-5'>
-                                <div className="icon-circle" data-aos="flip-left">
+                                <div className="icon-circle" data-aos="zoom-in-up">
                                     <BiCurrentLocation size={50} className="" color="white" />
                                 </div>
                                 <div className="px-2">
