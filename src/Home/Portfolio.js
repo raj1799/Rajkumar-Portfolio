@@ -187,6 +187,16 @@ const Portfolio = () => {
                                 </div>
                                 <div data-aos="fade-right">
                                     <div className="d-flex justify-content-between">
+                                        <p className="reg-text">Next JS</p>
+                                        <p className="reg-text">70%</p>
+                                    </div>
+                                    <Progress
+                                        value={70}
+                                        color="warning"
+                                    />
+                                </div>
+                                <div data-aos="fade-right">
+                                    <div className="d-flex justify-content-between">
                                         <p className="reg-text">Typescript</p>
                                         <p className="reg-text">60%</p>
                                     </div>
@@ -263,6 +273,13 @@ const Portfolio = () => {
                                     <div className="d-flex justify-content-center">
                                         <a href="https://www.ecrubit.com/" target="_blank"><div className="download-cv text-white  text-center">Visit Company</div></a>
                                     </div>
+                                </div>
+
+                            </Col>
+                            <Col md={{ size: 6, offset: 3 }} lg={{ size: 6, offset: 3 }} sm="12" xs="12" className="py-5">
+                                <div className="work-sec px-3 py-3" data-aos="flip-left">
+                                    <p className="text-white reg-text "><h3><strong>Seminal</strong></h3></p>
+                                    <p className="text-white reg-text">Contributed to the development and enhancement of innovative products as a dedicated Frontend Developer in Australian industry, ensuring seamless user experiences and incorporating cutting-edge technologies to drive the company's success in the competitive market.</p>
                                 </div>
 
                             </Col>
