@@ -119,7 +119,7 @@ const Portfolio = () => {
                                     <h1 className="int-name  text-start">
                                         <strong>About Me</strong>
                                     </h1>
-                                    <p className="text-white text-start reg-text">Since beginning my journey as a Web Developer nearly 1 years ago, I've learnt many kind of technologies and did many collaborated projects with talented developers. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
+                                    <p className="text-white text-start reg-text">Since beginning my journey as a Web Developer nearly 2 years ago, I've learnt many kind of technologies and did many collaborated projects with talented developers. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.</p>
                                 </div>
                                 <div className="mt-5" data-aos="zoom-in">
                                     <div className="text-start mt-3"><CgProfile color="white" size={30} className="mx-2 profile-icon" /><pan className="text-white mx-2 reg-text">Name :</pan><span className="text-white mx-2 reg-text">Rajkumar Selvakumar</span></div>
