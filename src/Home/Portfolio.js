@@ -187,6 +187,16 @@ const Portfolio = () => {
                                 </div>
                                 <div data-aos="zoom-in-up">
                                     <div className="d-flex justify-content-between">
+                                        <p className="reg-text">Next JS</p>
+                                        <p className="reg-text">80%</p>
+                                    </div>
+                                    <Progress
+                                        value={80}
+                                        color="warning"
+                                    />
+                                </div>
+                                <div data-aos="zoom-in-up">
+                                    <div className="d-flex justify-content-between">
                                         <p className="reg-text">Typescript</p>
                                         <p className="reg-text">60%</p>
                                     </div>
