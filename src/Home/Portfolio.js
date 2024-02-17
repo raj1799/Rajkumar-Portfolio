@@ -278,7 +278,7 @@ const Portfolio = () => {
                             </Col>
                             <Col md={{ size: 4, offset: 2 }} lg={{ size: 6, offset: 3 }} sm="12" xs="12" className="py-5">
                                 <div className="work-sec px-3 py-3" data-aos="zoom-in">
-                                    <p className="text-white reg-text "><span className="px-3"><img src={Ecrubit} alt="Ecrubit" className="company-logo" width={40} /></span><h3><strong>Seminal</strong></h3></p>
+                                    <p className="text-white reg-text "><h3><strong>Seminal</strong></h3></p>
                                     <p className="text-white reg-text">Contributed to the development and enhancement of innovative products as a dedicated Frontend Developer at Australian industry, ensuring seamless user experiences and incorporating cutting-edge technologies to drive the company's success in the competitive market.</p>
                                 </div>
 
