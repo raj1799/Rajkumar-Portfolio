@@ -97,7 +97,7 @@ const Portfolio = () => {
                                         <div className="icon-circle mx-2" data-aos="zoom-in"><GiSandsOfTime color="white" size={50} /></div>
                                     </div>
                                     <div>
-                                        <p className="text-white">1 year</p>
+                                        <p className="text-white">2 year</p>
                                         <p className="yellow">Experience</p>
                                     </div>
 
